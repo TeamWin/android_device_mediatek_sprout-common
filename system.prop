@@ -53,7 +53,7 @@ ro.audio.silent=0
 ro.zygote.preload.enable=0
 
 ro.kernel.zio=38,108,105,16
-ro.boot.selinux=disable
+ro.boot.selinux=enforcing
 
 # Disable dirty region for Mali
 debug.hwui.render_dirty_regions=false
