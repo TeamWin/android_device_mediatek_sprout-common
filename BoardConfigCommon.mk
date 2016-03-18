@@ -1,5 +1,6 @@
 LOCAL_PATH := device/google/sprout-common
 
+DEVICE_RESOLTION := 720 x 1280
 TARGET_BOARD_PLATFORM := mt6582
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
