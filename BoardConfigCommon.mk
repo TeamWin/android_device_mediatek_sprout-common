@@ -30,7 +30,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/root/fstab.sprout
 
 TARGET_KERNEL_SOURCE := kernel/mediatek/sprout
-TARGET_KERNEL_CONFIG := cyanogenmod_sprout_defconfig
+TARGET_KERNEL_CONFIG := sprout_defconfig
 
 BOARD_RECOVERY_SWIPE := true
 
@@ -55,7 +55,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TW_EXTRA_LANGUAGES := false
 TW_NO_CPU_TEMP := true
 TW_THEME := portrait_hdpi
-BOARD_USE_CUSTOM_RECOVERY_FONT := device/google/sprout/rootdir/GoodDog.ttf
+#BOARD_USE_CUSTOM_RECOVERY_FONT := device/google/sprout/rootdir/GoodDog.ttf
 
 USE_OPENGL_RENDERER := true
 
