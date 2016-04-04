@@ -101,9 +101,3 @@ USE_CAMERA_STUB := true
 BOARD_SEPOLICY_DIRS += \
     device/mediatek/sprout-common/sepolicy
 
-BOARD_SEPOLICY_UNION += \
-    file_contexts \
-    device.te \
-    app.te \
-    netd.te
-
