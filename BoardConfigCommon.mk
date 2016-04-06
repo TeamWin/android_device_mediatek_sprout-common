@@ -36,7 +36,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/root/fstab.sprout
 
 TARGET_KERNEL_SOURCE := kernel/mediatek/sprout
-TARGET_KERNEL_CONFIG := sprout32_debug_defconfig
+TARGET_KERNEL_CONFIG := seedmtk_debug_defconfig
 
 BOARD_RECOVERY_SWIPE := true
 

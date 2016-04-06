@@ -143,4 +143,4 @@ PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # call the proprietary setup
-$(call inherit-product, vendor/google/sprout/sprout-vendor-blobs.mk)
+$(call inherit-product-if-exists, vendor/google/sprout/sprout-vendor-blobs.mk)
